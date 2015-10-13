@@ -64,17 +64,3 @@ $(document).ready(getQuote);
 
 
 
-// Post quote to twitter
-var postQuote = function(){
-	$.ajax({
-		type: 'POST',
-		url: 'j49p1CyYnzR2kVjohbfCPsEtR',
-		headers: headers,
-		success: function(response){
-			
-		},
-		error: function(err){
-			console.log("An error occured", err);
-		}
-	})
-}
